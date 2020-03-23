@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 0px auto;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+
+header#cabecalho {
+    height: 150px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
+    /*                                                         |    ^- deslocamento vertical
+                                                             ^- deslocamento lateral
+    */
+
+    border-bottom: 1px #606060 solid;
+    /*             |     |      ^- formato
+                   |     ^-------- cor
+                   ^-------------- largura
+    */
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+header#cabecalho-artigo h1.falha {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 13pt;
+    color: red;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+header#cabecalho-artigo h1.sucesso {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 13pt;
+    color: green;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+table#tabelaspec {
+    border: 0px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16pt;
+    border: 0px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tabelaspec td.celu{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: center;
+}
+
+table#tabelaspec td.cd{
+    /*background-color: #cecece;*/
+    background-color: #ffffff;
+    font-size: 8pt;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+
+table#btnForm {
+    
+    border-spacing: 0px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
+    font-size: 10pt;
+}
