@@ -8,7 +8,7 @@
  * 
  */
 session_start();
-require './Conn.php';
+require './include/_classes/Conn.php';
 //require_once './header.php';
 
 $msg = "";

@@ -12,8 +12,8 @@
  * 
  */
 session_start();
-require_once './Conn.php';
-require_once './Usuario.php';
+require_once './include/_classes/Conn.php';
+require_once './include/_classes/Usuario.php';
 
 
 $Dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
